@@ -1,4 +1,4 @@
-sed $'s/\r$//'
+sed $'s/\r$//' ./Plasmodium_falciparum.sh > Plasmodium_falciparum.Unix.sh
 cd ~/
 echo 'when prompted for username, enter anonymous'
 echo 'use your email as the password'
