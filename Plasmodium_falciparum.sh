@@ -1,4 +1,4 @@
-sed -i.bak 's/\r//' *
+sed $'s/\r$//'
 cd ~/
 echo 'when prompted for username, enter anonymous'
 echo 'use your email as the password'
