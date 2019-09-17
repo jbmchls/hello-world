@@ -1,0 +1,5 @@
+cd ~/
+wget [url] new_directory
+find -name '*.tar'
+tar -tvf deleteme.tar
+(find -name '*.tar') | (tar -xvf ./new_directory/deleteme.tar) | (tar -f ./new_directory/deletme.tar --delete *.txt)
